@@ -14,11 +14,19 @@
     <script src="style/js/bootstrap.min.js"></script>
     <title>2016全球异构计算HSA峰会</title>
     <link rel="stylesheet" href="style/css/main.css" type="text/css" />
+    <!--[if lte IE 8]><script>window.location.href='upgrade-your-browser.html?refer='+location.href;</script><![endif]-->
+    <!--[if lt IE 9]>
+  <script src="style/js/html5.js"></script>
+  <![endif]-->
+    <!--[if lte IE 7]>
+  <link href="style/css/font-awesome-ie7.min.css" rel="stylesheet">
+  <![endif]-->
 </head>
 <style>
 .tabslider_li .ta_list01 table thead tr th:nth-child(1) {
     width: 200px;
 }
+
 .banner {
     background: #001012 url("style/css/img/banner_en.jpg") no-repeat center center;
 }
@@ -85,8 +93,8 @@
     <div class="banner">
         <a href="" target="_blank">
             <!--<img src="style/css/img/bannerPc_bg.jpg" alt="pc" class="banner_pc" />-->
-            <span style="background: url(style/css/img/bannerPc_bg.jpg) no-repeat center center; height:524px;" class="banner_pc"></span>
-            <img src="style/css/img/bannerMb_bg.jpg" alt="mobile" class="banner_mobile" />
+            <span style="background: url(style/css/img/bannerMb_en.jpg) no-repeat center center; height:524px;" class="banner_pc"></span>
+            <img src="style/css/img/bannerMb_en.jpg" alt="mobile" class="banner_mobile"  style=""/>
         </a>
     </div>
     <!--banner 结束-->
@@ -100,9 +108,9 @@
             <div class="general_intr">
                 <div class="general_intrR">
                     <p><i class="fa fa-quote-left">&nbsp;</i>As traditional homogeneous multi-core processor architectures gradually approach their physical limits, it is difficult to continue to improve chip performance, and excessive power consumption, area size and other issues follow. Heterogeneous computing, or so-called "big computing", is becoming an international mainstream technology. Based on heterogeneous computing technology, heterogeneous multi-core processors deeply integrate CPU, GPU, DSP, FPGA, ASIC and other fixed-function accelerators on the same chip to perform collaborating computing, storage and management. In terms of performance, power, and other key indicators, it has improved several times or even orders of magnitude more than existing homogeneous multi-core processors. In other words, the "CPU +" era has quietly emerged.</p>
-                    <p>In the "CPU +" era, in addition to innovative technology, there are major issues we are facing including improving the relevant ecosystems, integrating the upstream and downstream industries, and opening up new markets, etc.., which means the global industry community must work together. This provides a rare historical opportunity for our country to bridge the gap with the international IC industry, and then break the monopoly, to simultaneously keep pace with the latest technology of heterogeneous processors and the development of the industry.</p>
+                    <p>In the "CPU +" era, in addition to innovative technology, there are major issues we are facing including improving the relevant ecosystems, integrating the upstream and downstream industries, and opening up new markets, etc., which means the global industry community must work together.</p>
                     <p>HSAF (Heterogeneous System Architecture Foundation) is one of the most important non-profit international consortiums for the next generation of heterogeneous multi-core processors, bringing together a large number of processor-related hardware and software companies with significant influence, together to build and improve the HSA ecosystem.</p>
-                    <p>The Heterogeneous System Architecture Foundation (HSAF) Heterogeneous Computing 2016 Global Summit is scheduled to be jointly hosted by HSAF and the China Semiconductor Industry Association (CSIA) on August 23 - 24 in the Beijing Economic and Technological Development Zone (E-Town), China, and this is the first time the HSAF Summit will be held in China. The Summit will examine integrated circuit technologies and its industry application and solutions. It will further consider the CPU + era and how to develop the next generation heterogeneous multi-core processors and other related systems.</p>
+                    <p>The Heterogeneous System Architecture Foundation (HSAF) Heterogeneous Computing 2016 Global Summit is scheduled to be jointly hosted by HSAF and the China Semiconductor Industry Association (CSIA) on August 22 - 23 in the Beijing Economic and Technological Development Zone (E-Town), China, and this is the first time the HSAF Summit will be held in China. The Summit will examine integrated circuit technologies and its industry application and solutions. It will further consider the CPU + era and how to develop the next generation heterogeneous multi-core processors and other related systems.</p>
                     <p>The HSAF Heterogeneous Computing 2016 Global Summit anticipates invited leaders from the Cyberspace Administration of China, the Ministry of Industry and Information Technology, the Government of Beijing Municipality as well as industry experts will attend. In addition to HSAF members, multiple influential industry/academia/research institutes, SoC IP vendors, processor design companies, tools vendors, OSVs and ISVs are confirmed to attend, including Huawei, the Chinese Academy of Sciences (CAS), Peking University, etc.<i class="fa fa-quote-right">&nbsp;</i></p>
                     <p>&nbsp;</p>
                 </div>
@@ -110,11 +118,11 @@
         </div>
         <div class="content02_bg">
             <div class="join_reason">
-                <h4><span>5 reasons </span>to participate in the HSA summit:</h4>
+                <h4><span>5 Reasons </span>to Participate in the HSA Summit:</h4>
                 <p style="margin-top:1em; font-size:16px;">The Heterogeneous multi-core processor software programming threshold is greatly reduced, and the unified programming, debugging and optimizations based on different types of processor cores and accelerated circuit units is fully realized.</p>
                 <div class="row">
                     <!--<div class="col-md-4 col-sm-6 col-xs-6 liy">
-                <img src="style/css/img/imm/liy1.jpg" alt="1">
+                <img src="style/css/img/imm/liy1.jpg" alt="1"> 
                         <span class="liytx"><em>降低编程门槛</em></span>
               </div>
                     <div class="col-md-4 col-sm-6 col-xs-6 liy">
@@ -250,8 +258,8 @@
                                         <tr>
                                             <td>15min</td>
                                             <td>Heterogeneous multi-core chip solution</td>
-                                            <td>AMD</td>
-                                            <td></td>
+                                            <td>Allen Lee</td>
+                                            <td>Corporate Vice President of AMD</td>
                                         </tr>
                                         <tr>
                                             <td>15min</td>
@@ -263,13 +271,13 @@
                                             <td>15min</td>
                                             <td>Heterogeneous multi-core chip solution</td>
                                             <td>Dr. Ju, Roy</td>
-                                            <td>MediaTek</td>
+                                            <td>Sr. Technical Director and SW Architect at MediaTek</td>
                                         </tr>
                                         <tr>
                                             <td>10min</td>
                                             <td>Heterogeneous multi-core chip solution</td>
                                             <td>Liu, James</td>
-                                            <td>Imagination</td>
+                                            <td>Vice President and General Manager China at Imagination Technologies</td>
                                         </tr>
                                         <tr>
                                             <td colspan="4" style="font-size:16px;">Afternoon (14:00 PM – 16:00 PM)</td>
@@ -477,7 +485,7 @@
                 <div class="col-xs-12 col-sm-10">
                     <div class="jb_con">
                         <h4>Guangnan Ni</h4>
-                        <span>academicians of the Chinese Academy of Engineering</span>
+                        <span>Academician of the Chinese Academy of Engineering</span>
                         <!--<strong>联发科</strong>-->
                         <div class="jbtxt">
                             <p>Guangnan Ni is one of the first academicians of the Chinese Academy of Engineering. He received the Lifetime Achievement Award from Chinese Information Processing Society of China and China Computer Federation in 2011 and 2015 respectively. He is committed to the development of China's information core technology and industry and is highly influential in hardware and software system's policymaking and standards in China.</p>
@@ -493,10 +501,10 @@
                 </div>
                 <div class="col-xs-12 col-sm-10">
                     <div class="jb_con">
-                        <h4>周宏仁</h4>
-                        <span>研究员，博士生导师，国家信息化专家咨询委员会常务副主任</span>
+                        <h4>Hongren Zhou</h4>
+                        <span>Researcher and PhD supervisor, Executive Deputy Director of the Advisory Committee for State Informatization (ACSI)</span>
                         <div class="jbtxt">
-                            <p>周宏仁研究员，博士生导师，原联合国经济和社会事务部高级顾问。现任国家信息化专家咨询委员会常务副主任，负责主持国家经济信息系统的建设和管理。</p>
+                            <p>Dr. Hongren Zhou, researcher and PhD supervisor, was former senior advisor to the United Nations Department of Economic and Social Affairs. Dr. Zhou now serves as Executive Deputy Director of the Advisory Committee for State Informatization (ACSI) responsible for the construction and management of national economic information systems.</p>
                         </div>
                     </div>
                 </div>
@@ -522,6 +530,23 @@
             <div class="row">
                 <div class="col-sm-2 col-xs-12">
                     <div class="GS_picBox">
+                        <a><img src="style/css/img/imm/head06.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-10">
+                    <div class="jb_con">
+                        <h4>Greg Stoner</h4>
+                        <span>Director of the Radeon Open Compute Initiative in AMD’s Radeon Technology Group</span>
+                        <!--<strong>联发科</strong>-->
+                        <div class="jbtxt">
+                            <p>Greg Stoner is Sr. Director of the Radeon Open Compute Initiative in AMD’s Radeon Technology Group, Board Director for the OpenACC Group, Managing Dir. and Chairman of the Board for the HSA Foundation, and is a permanent member of the OpenMP Architecture Review Board. Stoner is responsible for AMD’s GPU Compute Strategy and Roadmap and leads the Radeon Open Compute Engineering team. Stoner has a strong professional background in the computing industry with over 20 years of experience in hardware and application development. Stoner was also a Dir. of Business Development in the Visual Computing Software Group at Intel, and held positions previously at Motorola, Ageia Technologies, Digital Domain, Metrowerks (A Motorola company), and at MIPS Technology. Stoner did advanced studies in business at Stanford University and with undergraduate studies in Material Science and Engineering at the University of Michigan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-xs-12">
+                    <div class="GS_picBox">
                         <a><img src="style/css/img/imm/head01.jpg"></a>
                     </div>
                 </div>
@@ -529,7 +554,7 @@
                     <div class="jb_con">
                         <h4>Roy Ju</h4>
                         <span>Sr. Technical Director and SW Architect at MediaTek</span>
-                        <strong>MediaTek</strong>
+                        <!-- <strong></strong> -->
                         <div class="jbtxt">
                             <p>Roy Ju is Sr. Technical Director and SW Architect at MediaTek and is driving the heterogeneous computing and compiler optimization solutions on MediaTek mobile platforms. He serves as an expert of the HSA Foundation and runs the multivendor working group. He is also involved in SW strategy and other technology initiatives at Corporate Technology Office. Dr. Ju has had more than 20 years of industrial experiences on technology and product developments in the areas of programming systems, compiler optimizations, parallel processing, and processor architecture and has held various technical and management positions at AMD, Google, Intel, HP, and IBM. Prior to joining MediaTek in 2013, Dr. Ju was a Sr. Fellow and the compiler architect of the Heterogeneous System Architecture (HSA) project at AMD. During 1999 through 2005 at Intel, Dr. Ju spearheaded an Itanium Open Research Compiler, which was in collaboration with the Institute of Computing Technology at Chinese Academy of Sciences and released to the open source research community worldwide. Dr. Ju received his B.S. in Electrical Engineering from National Taiwan University and M.S. and Ph.D. in Electrical and Computer Engineering from University of Texas at Austin.</p>
                         </div>
@@ -545,7 +570,7 @@
                 <div class="col-xs-12 col-sm-10">
                     <div class="jb_con">
                         <h4>James Liu</h4>
-                        <span>Vice President and General Manager China for Imagination Technologies</span>
+                        <span>Vice President and General Manager China at Imagination Technologies</span>
                         <div class="jbtxt">
                             <p>James Liu is Vice President and General Manager China for Imagination Technologies. Mr. Liu brings to Imagination 20+ years of experience in the China electronics design industry. Prior to joining Imagination in 2015, Mr. Liu spent 18 years at Cadence Design Systems, where he most recently held the role of China site manager – managing 700 employees across multiple sites – and VP of worldwide field operations for China, leading an organization of around 100 people. During his time at Cadence, he held positions in many key customer-facing roles including FAE, product specialist, sales manager, regional GM and national sales director. Prior to joining Cadence, Mr. Liu worked in a government institute as an R&D engineer/project manager for seven years. He holds an MSEE and an EMBA.</p>
                         </div>
@@ -571,9 +596,11 @@
                     <div style="padding:1em; max-width:1030px; margin:0 auto;">
                         <p style="color:#333; font-weight:bold; font-size:16px; padding:6px 0;">HSA Summary</p>
                         <p style=" text-indent:2em;">The HSA (Heterogeneous System Architecture) Foundation is a non-profit consortium of SoC IP vendors, OEMs, Academia, SoC vendors, OSVs and ISVs, whose goal is making programming for parallel computing easy and pervasive. HSA members are building a heterogeneous computing ecosystem, rooted in industry standards, which combines scalar processing on the CPU with parallel processing on kernel agents including GPU, DSP, and other accelerators. This enables high bandwidth access to memory and high application performance with low power consumption. HSA defines interfaces for parallel computation using CPU, GPU, DSP, FPGA and other programmable and fixed function devices, while supporting a diverse set of high-level programming languages, and creating the foundation for next-generation, general-purpose computing.</p>
-                        <p style=" color:#333;"><b>HSA heterogeneous computing</b></p>
+                        <br>
+                        <p style=" color:#333; font-weight:bold;">HSA Heterogeneous Computing</p>
                         <p style=" text-indent:2em;">Based on heterogeneous computing technology, the heterogeneous multi-core processor deeply integrates CPU, GPU, DSP, FPGA, ASIC and other different types of processor cores and on the same chip for collaborative computing, storage and management in accordance with consistent hardware / software interface standards and specifications.</p>
-                        <p style=" color:#333;">Goal of the heterogeneous computing</p>
+                        <br>
+                        <p style=" color:#333; font-weight:bold;">Goal of the Heterogeneous Computing</p>
                         <p style=" text-indent:2em;">Compared with the prior homogeneous multicore processors and the same type of SoC chips, heterogeneous multi-core processors have significantly improved performance by up to orders of magnitude in terms of performance, power and other key indicators.</p>
                         <br>
                         <p style="color:#333; font-weight:bold; font-size:16px; padding:6px 0;">HSA Members</p>
