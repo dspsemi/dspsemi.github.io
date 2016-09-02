@@ -1,0 +1,125 @@
+﻿/*css start*/
+html{ height:100%;}
+body{ background:#600B06; height:100%; padding: 0; margin: 0;}
+header{display: none;}
+header nav{ display: none; }
+body.opennav header nav{ display: block; }
+/* 首页main */
+@media screen and (min-width: 980px){
+	.main_index{ width:88%; min-width:940px; max-width:1300px; margin:0 auto; padding:30px 0 0 0;}
+	.main_index .box{ padding:12px; background:#fff;}
+	#maincontent{ min-width:940px; max-width: 1300px;padding:3% 6% 0px 6%; margin: 0 auto;}
+	#maincontent .box{min-width:930px; padding:7px; margin:0px auto; background-color:White;}
+}
+/**/
+/*#mainbanner{ min-width:940px; max-width: 1300px;padding:3% 6% 0px 6%; margin: 0 auto;}
+#mainbanner .box{ min-width:920px; padding:12px; margin:0px auto; background-color:White;}*/
+.banner{ width:100%; height:376px;}
+.banner > div.top{width: 100%; height: 100%;background:url(../images/001.jpg) no-repeat left center; background-size: 100% auto;}
+.banner > div span{display: none;}
+
+/*#flashcontent{ height:376px; background: url(../images/bg.png) repeat-x left center;  background-size: auto 1080px;}
+#flashcontent > div.top{width: 100%; height: 100%;background:url(../images/001.jpg) no-repeat left center; background-size: 100% auto;}
+#flashcontent > div span{display: none;}*/
+/**/
+.index_menu{ width:100%; height:113px; overflow:hidden; background:url(img/mianbannr_bg.jpg) repeat-x 0px 0px;}
+.index_logo{float:left; padding:40px 0px 0px 25px;height:48px; overflow:hidden;}
+.index_logo img{ height:100%; width:auto;}
+/**/
+/*#menu{ height:113px; overflow:hidden; background:url(img/mianbannr_bg.jpg) repeat-x 0px 0px;}
+#logo{ float:left; padding:40px 0px 0px 25px;height:48px; overflow:hidden; }
+#logo a{}
+#logo a img{height: 100%;width: auto;}*/
+.index_nav{float:right; padding:65px 30px 0px 0px;}
+.index_nav ul{ /*width:328px;*/ height:22px; /*background:url(img/new_nav_bg_1.jpg) no-repeat 0px 0px;*/}
+.index_nav li{ display: inline-block; height:22px; float:left; background: url(../images/1.jpg) no-repeat left center; padding: 0 20px;}
+.index_nav li:first-child{background: none;}
+.index_nav li a{ display: inline-block; height:19px; line-height: 19px; /*text-indent:-99999px;*/ color: #000; font-weight: bold; font-family: '微软雅黑'; font-size: 14px; border-bottom: 3px solid rgba(225,225,225,1);}
+.index_nav li:hover a{border-color: rgba(155,33,30,1);text-decoration:none;}
+
+/**/
+/*#nav{ float:right; padding:65px 30px 0px 0px;}
+#nav ul{  height:22px; }
+#nav li{ display: inline-block; height:22px; float:left; background: url(../images/1.jpg) no-repeat left center; padding: 0 20px;}
+#nav li:first-child{background: none;}
+#nav li a{ display: inline-block; height:19px; line-height: 19px;  color: #000; font-weight: bold; font-family: '微软雅黑'; font-size: 14px; border-bottom: 3px solid rgba(225,225,225,1);}
+#nav li:hover a{border-color: rgba(155,33,30,1);text-decoration:none;}*/
+/**/
+/**/
+#header{ height:100px; border-bottom:solid 3px #8c1f18; margin: 0 30px;}
+#logo1{ float:left;  height:48px; padding:20px 0px 0px 0; }
+#logo1 a{ /*display:block; text-indent:-9999px; width:197px; height:68px; background:url(../images/logo.png) no-repeat 0px 0px;*/}
+#logo1 a img{height: 100%; width: auto;}
+#navmenu{ float:right; /*width:328px;*/ height:19px; padding:38px 0 0px 0px;}
+#navmenu ul{ /*width:328px;*/ height:22px; /*background:url(img/new_nav_bg_1.jpg) no-repeat 0px 0px;*/}
+#navmenu li{ display: inline-block; height:22px; float:left; background: url(../images/1.jpg) no-repeat left center; padding: 0 20px;}
+#navmenu li:first-child{background: none;}
+#navmenu li a{ display: inline-block; height:19px; line-height: 19px; /*text-indent:-99999px;*/ color: #000; font-weight: bold; font-family: '微软雅黑'; font-size: 14px; border-bottom: 3px solid #fff;}
+#navmenu li:hover a{border-color: rgba(155,33,30,1);text-decoration:none;}
+
+#maincontent .inner{ background:url(img/template_bg.jpg) repeat-x 0px bottom; padding:15px 0px 80px 0px;}
+#leftcontent{ float:left; width:215px; padding:0px 15px 60px 10px; border-right:solid 1px #000000; display: none;}
+#rightcontent{ /*margin:0px 0px 0px 260px;*/ margin: 0 30px; }
+#rightcontent .h2{ font-family:'黑体'; font-size:18px; padding:0px 0px 0px 0px; font-weight:bold; line-height:35px;}
+#rightcontent .content{ padding:0px 0 20px 0px; line-height:20px;}
+#rightcontent .content p{ padding:10px 0px;}
+/*#newslist{}
+#newslist dl{ padding:0px 30px 0px 0px;}
+#newslist .current dd{ display:block;}
+#newslist dt{ border-bottom:solid 1px Black;  font-weight:bold; cursor:pointer; height:28px; line-height:28px; padding:5px 0px 0px 15px; overflow:hidden; background:url(img/li001.jpg) no-repeat 0px 12px;}
+#newslist dd{ display:none; padding:10px 18px; line-height:190%;}
+#newslist dd li{ padding:10px 0px 10px 10px;}
+#newslist dd .p{ left:-15px; position:relative;}
+#newslist dd a{ text-decoration:underline; color:#D83F1F;}*/
+.page_footer{ font-family:Arial; text-align:center; line-height:20px; padding:15px; color:White;}
+.page_footer span{ color:White; padding:0px 5px; font-family:Arial;}
+/**/
+.bigimg{ margin:0 30px 20px 30px; height: 315px; }
+.bigimg img{ width: 100%;}
+/**/
+@media screen and (max-width: 1200px){
+	.bigimg{height: 238px;}
+}
+@media screen and (max-width: 980px){
+	body{background: #fff; font-family: '微软雅黑';}
+	header{display: block; overflow: hidden;padding: 12px 0 0 0; width:100%;}
+	#header{display: none;}
+	.nav_logo_m{ line-height:42px; font-size:18px; font-weight:bold;float: left; display: inline-block;max-width: 77%; height: 45px; padding-bottom: 12px;}
+	.nav_logo_m img{ display:block; float:left; /*width:42px;*/width:258px;max-height: 100%; height:auto; text-align:center; line-height:32px; color:#fff; font-size:14px; padding: 8px 0 0 12px; }
+	#nav_btn{width: 45px;height: 45px; display: block;float: right;/*border:1px solid #bbb;border-radius: 2px;*/position: relative; /*box-shadow: 0 0 5px #ccc;*/ cursor: pointer; margin: 0 0 0 0; background: url('../images/navbtn.png') no-repeat center center; background-size: 30px 30px;}
+	
+	.m_navlist{border-top: 1px solid #999; border-radius: 0 0 4px 4px; margin: 12px 0 0 0; overflow: hidden;position: relative;background: #eee; transform: translate3d(100%,0,0); opacity: 0; transition: transform 0.4s ease; }
+	.opennav .m_navlist{transform: translate3d(0,0,0); opacity: 1; }
+	.m_navlist li{display: block; font-size: 14px; padding:0 0; background: none;}
+	.m_navlist li a{ display: block;color: #404041; padding: 16px 12px; text-align: left; border-top: 1px solid #ccc; font-family: '微软雅黑'; font-size: 14px;text-decoration:none;outline:none;}
+	.m_navlist li:hover{background: #999;}
+	.m_navlist li:first-child a{border:none;}
+	/**/
+	.index_menu{display: none;}
+	.main_index{ width:auto; min-width:none; max-width:none; margin:0;padding:0;}
+	.main_index .box{min-width: auto; padding:7px;}
+	
+	#maincontent{ width:100%; min-width:auto; margin:0;padding:0;}
+	#maincontent .box{min-width: auto; padding:7px;}
+	#maincontent .inner{background: none;}
+	.banner{background: none;min-height:500px;}
+	/**/
+	.banner > div.top{width: 100%; height: 70%;background:url(../images/001.jpg) no-repeat left center #eee; background-size: 100% auto ; position: relative;}
+	.banner > div.top span{ display: block;position: absolute;bottom: 0;background:rgb(140,27,31);color: #fff; text-align: center;margin: 0 5%;margin: 0 1.6rem;padding: 25px 5%;padding: 25px 1.6rem; font-size: 14px; line-height: 1.8em;}
+	.banner > div.map{width: 100%; height: 30%;background:#eee;/*background:url(../images/map.jpg) no-repeat center center; background-size: auto 100% ;*/ position: relative;}
+	.banner > div.map span{display: block;/*position: absolute;top: 0;*/background:#fff; color: #333;text-align: center;margin: 0 1.6rem;padding:20px 1.6rem;font-size: 12px; line-height: 1.8em;}
+	/**/
+	
+	.page_footer{background: rgb(140,27,31);line-height: 20px;color: #fff;text-align: center;padding: 15px;}
+	.page_footer > span{display: block;text-align: center;}
+	.bigimg{margin: 0 15px 15px 15px;}
+	#rightcontent{margin: 0 15px;}
+}
+@media screen and (max-width: 720px){
+	.banner > div.top{width: 100%; height: 70%;background:url(../images/001.jpg) no-repeat left center; background-size: auto 100% ; position: relative;}
+}
+@media screen and (max-width: 640px){
+	.bigimg{height: 200px;}
+	.bigimg{height: 10.6rem;}
+	.banner{background: none;min-height:32rem;}
+}
